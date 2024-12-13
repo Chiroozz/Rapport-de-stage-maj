@@ -1,0 +1,64 @@
+:root {
+    --color1 : rgb(255, 255, 255);
+}
+
+body {
+    background: linear-gradient(197deg, rgba(0,0,0,1) 36%, rgba(115,113,113,1) 100%);;
+}
+
+.profil{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 75px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+img {
+    border: white solid 1px;
+    border-radius: 50px;
+    box-shadow: -1px 3px 20px 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.photo-groupe {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+
+p {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+#cube {
+    padding: 20px;
+    border: rgba(0, 0, 0, 0.542) solid 1px;
+    background: rgba(0, 0, 0, 0.542);
+    border-radius: 50px;
+    margin: 0px 20px 0px 20px;
+    backdrop-filter: blur(6px);
+    color: white;
+    box-shadow:  -5px 4px 20px 0px;
+}
+
+.texte {
+    margin-left: 25px;
+    letter-spacing: 1.00000235654878px;
+    border: white solid 1px;
+    background: white;
+    border-radius: 50px;
+    color: black;
+    padding: 10px;
+}
